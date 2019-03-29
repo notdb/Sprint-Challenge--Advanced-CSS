@@ -1,1 +1,16 @@
 // Mixins Here
+
+.button-settings(@font-size: 1rem, @border-radius: 5px, @color: @porcelain){
+    font-size: @font-size;
+    border-radius: @border-radius;
+    color: @color;
+}
+
+.swap() {
+    &:hover {
+        background-color: @porcelain;
+        color: @btn-bg-color;
+    }
+}
+
+@phone: ~"(max-width: 500px)";
