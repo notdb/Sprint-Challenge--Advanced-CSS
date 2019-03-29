@@ -1,1 +1,25 @@
 // Navigation code here
+header {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+    h1 {
+        margin: 3px 0;
+        text-align: center;
+    }
+    nav {
+        margin-top: 12.5px;
+        width: 55%;
+        display: flex;
+        justify-content: space-evenly;
+        a {
+            text-decoration: none;
+            color: @header-font-color;
+            font-size: 1.6rem;
+            line-height: 1.4;
+        }
+    }
+}
