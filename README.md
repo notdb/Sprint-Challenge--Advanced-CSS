@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first has min-widths instead of max-widths for media queries and tends to be designed for mobile first and "blown up" rather than desktop first and "shrunk down".
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+Sets 1rem to be equal to 10px
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preproccesors allow you to write more maintainable css. They also output a vanilla css file to be used everywhere.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+I really like the nesting. Functions can be confusing but are useful as well.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -96,11 +106,11 @@ _You will know everything is working properly when you see the styles enabled fo
 
 ### Home Page - Desktop HTML & LESS
 
-* [ ] Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built.
+* [x] Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built.
 
-* [ ] Add a viewport meta tag to the head of your index.html page
+* [x] Add a viewport meta tag to the head of your index.html page
 
-* [ ] [Review the provided home desktop design file](design-files/home-desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
+* [x] [Review the provided home desktop design file](design-files/home-desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
 
 * [ ] Navigation Styles: Use the `navigation.less` file for styling.
 
